@@ -1,0 +1,23 @@
+.footer {
+    display: flex;
+    padding: 15px;
+}
+.anclas {
+    display: flex;
+    width: 40%;
+    margin: auto;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.anclas a {
+    width: auto;
+    margin: auto;
+    font-size: 35px;
+    text-decoration: none;
+    color: wheat;
+}
+
+.anclas a :hover {
+    color: rgb(255, 233, 38);
+}

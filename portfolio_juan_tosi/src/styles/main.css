@@ -1,0 +1,40 @@
+.main {
+    min-height: calc(100vh - 135px);
+    display: flex;
+}
+
+.contenedor {
+    justify-content: center;
+    margin: auto;
+}
+
+.nombre {
+    font-size: 110px;
+    font-weight: bold;
+    background: linear-gradient(100deg, rgba(67, 14, 212, 0.9),rgba(206, 209, 16, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.descripcion{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.descripcion span {
+    font-size: 50px;
+    background: linear-gradient(100deg, rgba(92, 90, 214, 0.4), rgb(184, 184, 38, 0.5),rgba(255, 94, 0, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.descripcion p {
+    width: 30%;
+    font-size: large;
+background: linear-gradient(100deg, rgba(92, 90, 214, 0.4), rgb(184, 184, 38),rgba(255, 94, 0, 0.8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 20px;
+}
