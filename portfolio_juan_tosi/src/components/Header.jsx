@@ -5,6 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="rutas">
+        <Link to={"/"}>Inicio</Link>
         <Link to={"/aboutMe"}>Sobre mi</Link>
         <Link to={"/projects"}>Proyectos</Link>
         <Link to={"/contact"}>Contacto</Link>

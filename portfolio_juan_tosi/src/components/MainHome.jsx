@@ -15,9 +15,9 @@ const MainHome = () => {
               <br />
               <br />
               Desarrollador web estudiante de la Tecnicatura Universitaria en
-              Programacion en la UTN - FRT. Actualmente me encuentro cursando el
-              2° año de la carrera, llevo creados varios proyectos a modo de
-              practica que me ayudan a desarrollar mis habilidades en
+              Programacion en la UTN - FRT. Actualmente cursando el
+              2° año de la carrera. A lo largo de mis estudios, fui creando algunos proyectos a modo de
+              practica con los cuales busco desarrollar mis habilidades en
               programacion.
             </p>
           </div>

@@ -1,40 +1,108 @@
 .main {
-    min-height: calc(100vh - 135px);
-    display: flex;
+  min-height: calc(100vh - 140px);
+  display: flex;
 }
 
 .contenedor {
-    justify-content: center;
-    margin: auto;
+  justify-content: center;
+  margin: auto;
 }
+/*
+rgba(255, 166, 0) NARANJA → TITULOS A RESALTAR → Color 1
+
+rgb(119, 119, 219) VIOLETA CLARO → Color 2 
+
+#bbb GRIS CLARO → SUBTITULOS → Color 3
+
+#888 GRIS OPACO→ TITULOS A RESALTAR → Color 4
+*/
 
 .nombre {
-    font-size: 110px;
-    font-weight: bold;
-    background: linear-gradient(100deg, rgba(67, 14, 212, 0.9),rgba(206, 209, 16, 0.9));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 80px;
+  font-weight: bold;
+  /* background: linear-gradient(
+    100deg,
+    rgba(107, 160, 15, 0.4),
+    rgba(48, 96, 4, 0.5),
+    rgba(138, 206, 19, 0.4)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: aliceblue; */
+  color: rgba(255, 166, 0, 0.8);
 }
 
-.descripcion{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
+.descripcion {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
 }
 
 .descripcion span {
-    font-size: 50px;
-    background: linear-gradient(100deg, rgba(92, 90, 214, 0.4), rgb(184, 184, 38, 0.5),rgba(255, 94, 0, 0.8));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  font-weight: bold;
+  color: #bbb;
 }
 
 .descripcion p {
-    width: 30%;
-    font-size: large;
-background: linear-gradient(100deg, rgba(92, 90, 214, 0.4), rgb(184, 184, 38),rgba(255, 94, 0, 0.8));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding: 20px;
+  width: 30%;
+  font-size: large;
+  padding: 20px;
+  color: #888;
+}
+
+.tarjeta {
+  width: 100%;
+  height: auto;
+}
+
+.tarjeta img {
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.tarjeta h2 {
+  color: #bbb;
+}
+
+.skills {
+  color: #888;
+}
+
+.proyectos {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card-proyecto {
+  width: 500px;
+  justify-content: center;
+  color: rgba(255, 166, 0);
+}
+
+.card-proyecto img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 166, 0, 0.6);
+  border-radius: 10px;
+}
+
+.card-proyecto a :hover {
+  transform: scale(1.06);
+  border: 2px solid rgba(255, 166, 0, 0.9);
+}
+
+.formulario {
+  color: #bbb;
+  width: 30%;
+  margin: auto;
+}
+
+.formulario h2 {
+  color: rgba(255, 166, 0);
 }

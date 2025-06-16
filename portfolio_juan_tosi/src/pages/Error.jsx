@@ -1,9 +1,11 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Error = () => {
   return (
     <div>
-        <h1>ERROR AL BUSCAR LA PAGINA</h1>
+        <h2>ERROR AL BUSCAR LA PAGINA</h2>
+        <Link to={"/"}>Volver al inicio</Link>
     </div>
   )
 }
